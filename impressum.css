@@ -1,0 +1,92 @@
+body {
+  background-image: url("/images/backgroung_watercolor-green.svg");
+  background-repeat: no-repeat;
+  background-size: 6000px 4000px;
+
+  position: relative;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 2rem;
+
+  height: 85vh; /* gibt es eine bessere Lösung? */
+  background-image: url("images/flowers-with-gardening-tools.webp");
+  background-position: left bottom;
+  background-size: 35%;
+  background-repeat: no-repeat;
+}
+h2 {
+  margin-bottom: 1rem;
+}
+
+.btn-back {
+  position: absolute;
+  left: 5rem;
+  top: 3rem;
+  padding: 0.6rem;
+  border-radius: 90px;
+}
+
+@media screen and (max-width: 380px) {
+  /* iPhone SE */
+  h1 {
+    margin: 0;
+  }
+  h2 {
+    margin-bottom: 0.5em;
+  }
+  main {
+    background-size: 35%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* Tablet */
+  main {
+    background-size: 55%;
+  }
+}
+@media screen and (min-width: 993px) {
+  /* Desktop */
+  main {
+    background-size: 35%;
+  }
+}
+
+h1 {
+  color: var(--clr-primary);
+}
+h2 {
+  font-size: 2em;
+}
+
+section + section {
+  margin-top: 2em;
+}
+
+.contributors-list {
+  margin-top: 0.5rem;
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.contributor {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer {
+  background-color: var(--clr-primary);
+  background: radial-gradient(
+    ellipse at 50% 110%,
+    var(--clr-primary) 20%,
+    transparent 70%
+  );
+  height: 15vh;
+}
