@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/backgroung_watercolor-green.svg");
+  background-image: url("./images/backgroung_watercolor-green.svg");
   background-repeat: no-repeat;
   background-size: 6000px 4000px;
 
@@ -13,7 +13,7 @@ main {
   padding-inline: 2rem;
 
   height: 85vh; /* gibt es eine bessere Lösung? */
-  background-image: url("images/flowers-with-gardening-tools.webp");
+  background-image: url("./images/flowers-with-gardening-tools.webp");
   background-position: left bottom;
   background-size: 35%;
   background-repeat: no-repeat;
