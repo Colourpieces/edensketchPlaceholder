@@ -3,7 +3,7 @@ h3 {
 }
 
 .landingpage {
-  background-image: url("/images/backgroung_watercolor-green.svg");
+  background-image: url("./images/backgroung_watercolor-green.svg");
   background-repeat: no-repeat;
   background-size: 6000px 4000px;
 
